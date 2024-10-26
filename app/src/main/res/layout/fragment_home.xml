@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_50"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Recherche de postion d'amis"
+        android:textAlignment="center"
+        android:textColor="@color/gray_800"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/homePhoenNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="@color/blackAlpha_800"
+        android:textColorLink="@color/blackAlpha_300" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS" />
+</LinearLayout>
